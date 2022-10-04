@@ -1,6 +1,6 @@
 const Product = require('../models/Products');
 
-//Mi controladora con los endpoints para el modelo
+//Controladora con endpoints para cumplir con la consigna.
 
 const getAllProducts = (req, res) => {
   Product.find().then((products) => {

@@ -4,8 +4,8 @@ const mongoose = require('mongoose');
 const productsRoutes = require('./routes/products');
 require('dotenv').config();
 
-const URL_DB = process.env.URL_DB;
-const PORT = process.env.PORT || 4000;
+const URL_DB = process.env.MONGO_URL;
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 
